@@ -74,9 +74,17 @@ if (isset($_POST['login']))
 					<div class="form-group">
 						<input type="submit" name="login" class="btn btn-info" value="Login"/>
 					</div>
+                    <div align="right">
+                        <a href="register.php">Register</a>
+                    </div>
 				</form>
 			</div>
 		</div>
+        <div>
+            <p>johnsmith - password</p>
+            <p>peterParker - password</p>
+            <p>davidMoore - password</p>
+        </div>
 	</div>
 </body>
 </html>
